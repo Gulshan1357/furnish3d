@@ -4,7 +4,7 @@
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true,
-    "defaultBranch": "main"
+    "defaultBranch": "master"
   },
   "files": {
     "include": [
@@ -55,7 +55,6 @@
     "rules": {
       "a11y": {
         "noSvgWithoutTitle": "off",
-
         "useMediaCaption": "off"
       },
       "complexity": {
@@ -63,13 +62,9 @@
       },
       "correctness": {
         "noUndeclaredVariables": "error",
-
         "noUnusedImports": "error",
-
         "noUnusedVariables": "error",
-
         "useExhaustiveDependencies": "warn",
-
         "useHookAtTopLevel": "error"
       },
       "performance": {
@@ -77,18 +72,13 @@
       },
       "style": {
         "noParameterAssign": "off",
-
         "useImportType": "error"
       },
       "suspicious": {
         "noArrayIndexKey": "warn",
-
         "noDuplicateTestHooks": "error",
-
         "noExportsInTest": "error",
-
         "noFocusedTests": "error",
-
         "noThenProperty": "warn"
       }
     }
